@@ -1,0 +1,14 @@
+.section-1{
+    max-width: 500px;
+    height: 500px;
+    background-color: cyan;
+    text-align: left;
+}
+
+@media (max-width:400px){
+    .section-1{
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+}
